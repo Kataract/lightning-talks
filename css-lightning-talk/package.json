@@ -18,7 +18,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://kataract.github.io/lightning-talks/css-lightning-talk",
+  "homepage": "https://kataract.github.io/lightning-talks/css-lightning-talk/build",
   "devDependencies": {
     "gh-pages": "^1.1.0"
   }
