@@ -1,0 +1,25 @@
+{
+  "name": "css-lightning-talk",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-image": "^1.3.1",
+    "react-tweet-embed": "^1.0.8",
+    "spectacle-scripts": "2.0.0",
+    "styled-components": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "homepage": "https://kataract.github.io/lightning-talks/css-lightning-talk",
+  "devDependencies": {
+    "gh-pages": "^1.1.0"
+  }
+}
